@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-balham.css";
+
+.example-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid-wrapper {
+  flex: 1 1 0px;
+  width: 100%;
+}
+
+#myGrid {
+  height: 100%;
+}
+
+.ag-floating-top .ag-row-pinned.ag-row {
+  background-color: #00e5ff;
+}
+
+.ag-floating-bottom .ag-row-pinned.ag-row {
+  background-color: #00e5ff;
+}
+
+.test-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+button {
+  float: left;
+  margin-right: 5px;
+}
